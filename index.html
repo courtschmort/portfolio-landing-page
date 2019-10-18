@@ -20,7 +20,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="img/copyright-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="Font Awesome copyright icon">
         Courtney Schild
@@ -38,21 +38,35 @@
       </div>
     </nav>
 
-    <!-- <div class="container-fluid" id="header-image"> -->
-      <!-- <img src="https://picsum.photos/1920/360" alt="An image of Courtney Schild"> -->
-    <!-- </div> -->
-
     <div class="container-fluid bg-light" id="header">
       <h1>Hi, I'm Courtney.</h1>
       <h4>Former Designer + Future Developer</h4>
-      <p>Welcome to my portfolio landing page! I'm a Portland-based designer and developer-in-training at <a href="#">Epicodus</a>. Check out some of my most recent projects, connect with me on LinkedIn, follow me on Instagram, or leave me a message below.</p>
+      <p>Welcome to my portfolio landing page! I'm a Portland-based designer and developer-in-training at <strong><a href="#">Epicodus</a></strong>. Check out some of my most recent projects, connect with me on <a href="https://www.linkedin.com/in/courtneyschild/">LinkedIn</a>, follow me on <a href="https://www.instagram.com/courtschmort/">Instagram</a> (<em>yes, you can even <a href="https://www.instagram.com/finleethegsp/">follow my dog</a></em>), or just send me an email.</p>
+      <a class="btn btn-primary" href="mailto: courtneyschild@gmail.com" role="button">Email me</a>
     </div>
 
     <div class="container">
       <h2>About Me</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/Courtney-140.JPG" alt="An image of Courtney Schild" id="courtney-schild">
+        </div>
+        <div class="col-md-8">
+          <h3>From design to development</h3>
+          <p></p>
+          <p>So, what do I do for fun?</p>
+          <p>I'm a dog mom of a four-year-old German Shorthaired Pointer named Finlee, which keeps me pretty busy. An average day for Finlee and I might consist of:</p>
+          <ol>
+            <li>Going to work to see our friends (#officedog),</li>
+            <li>Running through the neighborhoods of Southeast Portland,</li>
+            <li>Playing fetch in the field at Revolution Hall, and</li>
+            <li>Cuddling on the couch before bed</li>
+          </ol>
+        </div>
+      </div>
 
       <h2>Projects</h2>
-      <div class="card text-center" id="projects">
+      <div class="card text-center">
         <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
@@ -73,31 +87,45 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card project">
-                <h5 class="card-header">Featured</h5>
+                <h5 class="card-header">HTML</h5>
                 <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <ul>
+                    <li>HTML</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary" target="_blank">View GitHub repository</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card project">
-                <h5 class="card-header">Featured</h5>
+                <h5 class="card-header">HTML</h5>
                 <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary" target="_blank">View GitHub repository</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card project">
-                <h5 class="card-header">Featured</h5>
+                <h5 class="card-header">HTML</h5>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Wikipedia Rebuild</h5>
+                  <p class="card-text">Introduction to Programming / Git, HTML and CSS / Practice: Re-Create a Site with Bootstrap</p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <ul>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </ul>
+                  <a href="https://github.com/courtschmort/wikipedia" class="btn btn-primary" target="_blank">View GitHub repository</a>
                 </div>
               </div>
             </div>
@@ -106,7 +134,7 @@
       </div>
     </div>
 
-    <div id="footer">
+    <div class="bg-white text-dark" id="footer">
       <p>&copy; 2019 Courtney Schild</p>
     </div>
 
