@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h4 {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
 }
@@ -23,10 +23,8 @@ h2 {
 }
 
 h4 {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 4px;
   color: grey;
@@ -39,7 +37,7 @@ h4 {
   letter-spacing: 2px;
 }
 
-.header-image {
+#header-image {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -59,7 +57,7 @@ h4 {
 }
 
 #projects {
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 
 .project {
