@@ -60,6 +60,11 @@ img#courtney-schild {
   width: 100%;
 }
 
+.because-I-have-to {
+  font-style: italic;
+  color: #e83e8c;
+}
+
 .project {
   text-align: left;
 }

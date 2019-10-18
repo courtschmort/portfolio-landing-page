@@ -42,6 +42,8 @@ If you have any questions, please email me at courtneyschild@gmail.com.
 In the future, I plan to include the following key features:
 * Use of links in navbar to scroll to section on page load
 * Use of navigation in card's header to switch between tabs
+* Additional pages
+* Contact form
 * Continued project updates
 
 ## Technologies Used
