@@ -33,7 +33,7 @@ For more information about cloning repositories available on GitHub, click [here
 
 There are no known bugs at this time.
 
-## Support and contact details
+## Support and Contact Details
 
 If you have any questions, please email me at courtneyschild@gmail.com.
 
