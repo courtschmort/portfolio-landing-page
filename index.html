@@ -45,67 +45,72 @@
 
     <div class="container-fluid bg-light header">
       <h1>Hi, I'm Courtney.</h1>
-      <h6>Former Designer + Future Developer</h6>
+      <h4>Former Designer + Future Developer</h4>
       <p>Welcome to my portfolio landing page! I'm a Portland-based designer and developer-in-training at <a href="#">Epicodus</a>. Check out some of my most recent projects, connect with me on LinkedIn, follow me on Instagram, or leave me a message below.</p>
     </div>
 
     <div class="container">
       <h2>Projects</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="nav nav-tabs">
+      <div class="card text-center" id="projects">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="#">HTML</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link disabled" href="#">JavaScript</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link disabled" href="#">Ruby on Rails</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="#">React</a>
             </li>
           </ul>
-          <div class="card">
-            <div class="card-body">
-              This is some text within a card body.
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card project">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card">
-                  <h5 class="card-header">Featured</h5>
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
+            <div class="col-md-4">
+              <div class="card project">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <h5 class="card-header">Featured</h5>
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <h5 class="card-header">Featured</h5>
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card project">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="footer">
+      <p>&copy; 2019 Courtney Schild</p>
     </div>
 
     <!-- Optional JavaScript -->
