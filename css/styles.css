@@ -2,20 +2,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 4rem;
-  font-weight: bold;
   text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
   letter-spacing: 2px;
 }
 
 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
-  text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 4px;
   color: grey;
@@ -46,13 +47,14 @@ h4 {
   background-color: pink;
 }
 
-.header {
+#header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 4rem 10%;
+  height: 844px;
   margin-bottom: 2rem;
 }
 
